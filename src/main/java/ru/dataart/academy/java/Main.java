@@ -10,11 +10,7 @@ public class Main {
         LongestSubstring longestSubstring = new LongestSubstring();
         System.out.println("Longest substring length: " + longestSubstring.getLengthOfLongestSubstring("aasdfgt"));
         ReverseInteger reverseInteger = new ReverseInteger();
-        try {
-            System.out.println("Reverse integer works: " + reverseInteger.reverse(7_463_847_12));
-        } catch (Exception e){
-            System.out.println("Введено число, которое не может быть конвертировано");
-        }
+        System.out.println("Reverse integer works: " + reverseInteger.reverse(-32));
 
     }
 }
